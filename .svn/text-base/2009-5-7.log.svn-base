@@ -1,0 +1,1193 @@
+D <21:46:25> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <21:46:25> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <21:46:25> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <21:46:25> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <21:46:25> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <21:46:25> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <21:46:26> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <21:46:26> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <21:46:26> SQL server connect OK!
+C <21:46:26> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <21:46:29> 	.NPC_NamebyGender		7932 data Loaded
+C <21:46:29> 	.NPC_Lv2Exp		 256 data Loaded
+C <21:46:29> 	.NPC Generation Info	 397 data Loaded
+C <21:46:29> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <21:46:29> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <21:46:29> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <21:46:29>   Reading './Data/BadWord.TXT'      count = 95 
+C <21:46:29>     .Plant Item		  33 data Loaded
+C <21:46:29>     .Mineral Item		  63 data Loaded
+C <21:46:29>     .Herb Item		  24 data Loaded
+C <21:46:29>     .Cook Item		 112 data Loaded
+C <21:46:29>     .Potion Item		  32 data Loaded
+C <21:46:29>     .Tool Item		  27 data Loaded
+C <21:46:30>     .Weapon Item		 966 data Loaded
+C <21:46:30>     .Disposable Item	  99 data Loaded
+C <21:46:30>     .Armor Item		 322 data Loaded
+C <21:46:30>     .Accessory Item	 122 data Loaded
+C <21:46:30>     .Etc Item		 309 data Loaded
+C <21:46:30> Item Table initializing    ...................... OK !
+
+C <21:46:30>  Store 'BLACKSMITH' itemlist number   : 321
+C <21:46:30>  Store 'FARM'       itemlist number   : 25
+C <21:46:30>  Store 'RESTAURANT' itemlist number   : 62
+C <21:46:30>  Store 'HERBSHOP'   itemlist number   : 24
+C <21:46:30>  Store 'SHAMBLES'   itemlist number   : 17
+C <21:46:30>  Store 'CANDLE'     itemlist number   : 12
+C <21:46:30>  Store 'SLOPSHOP'   itemlist number   : 166
+C <21:46:30>  Store 'ALCHEMY'    itemlist number   : 56
+C <21:46:30>  Store 'WOODWORKING'itemlist number   : 61
+C <21:46:30>  Store 'BOWCRAFT'   itemlist number   : 80
+C <21:46:30>  Store 'SHIPYARD'   itemlist number   : 11
+C <21:46:30>  Store 'PUB'        itemlist number   : 2
+C <21:46:30>  Store 'STORE'      itemlist number   : 20
+C <21:46:30>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <21:46:30> Store Item List  initializing    ................ OK !
+
+C <21:46:30> 	.'SkillMain'              99 data Loaded
+C <21:46:30> 'SkillMain' Table initializing   ................ OK !
+C <21:46:30> 'GMquest' Table initializing    ................. OK !
+C <21:46:30> 'Map_Info' Table loading        ................. OK !
+A <21:46:30> Read OK store table!
+C <21:46:30> 'Store' Table loading        ........... OK !
+A <21:46:30> Read OK mall table!
+C <21:46:30> 'ItemMall' Table loading        ........... OK !
+C <21:46:31> 'arean_game_info' Table loading        ........... OK !
+C <21:46:31> 'arean_Team_info' Table loading        ........... OK !
+C <21:46:31> 'arean_bonus_info' Table loading       ........... OK !
+C <21:46:31> 'alive_zone' Table loading        ..............  OK !
+C <21:46:31> 'Nation_Info' Table loading         ............  OK !
+C <21:46:31> 'Guild_List' Table loading         ............  OK
+C <21:46:32> 'Effect' Table initializing     ...............   OK !
+C <21:46:32> 'Magic' Table initializing	     ...............   OK !
+C <21:46:32> 	.SkillMapTable		  43 data Loaded
+C <21:46:32> 'SkillMapTable' initializing   ................   OK !
+C <21:46:32>    Script(0) Executed !
+C <21:46:32>  'ItemsBox_new' Loading  ......................   OK !
+C <21:46:32> <   BARANTAN.map>  loading                        OK !
+C <21:46:32> <   BARANTAN.toi2> loading                        OK !
+A <21:46:32> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <21:46:32> <   BARANTAN.skb>  loading                        OK !
+A <21:46:32> Event_Monster Table Fetch Error!!
+C <21:46:32> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <21:46:32> 'ItemJoin' Table initializing  ................   OK !
+C <21:46:33> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <21:46:33> Item Attr. initializing  
+C <21:46:33>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <21:46:33>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <21:46:33> 'Special_Item' Table initializing .............   OK !
+C <21:46:33> 'ability_limit' Table initializing .............   OK !
+C <21:46:33> 'ability_divide' Table initializing ............   OK !
+C <21:46:33> 'dual_info' Table initializing .................   OK !
+C <21:46:33> 'gamble_item' Table initializing ...............   OK !
+A <21:46:34> g_pNation was not Initiaized..!!
+C <21:46:34> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <21:46:34> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <21:46:34> Read OK Event_treasure_Level table!
+C <21:46:34> 'quest_in_map'	Table initializing ..............   OK ! 
+C <21:46:34> 'quest_info_map' Table initializing ..............   OK ! 
+C <21:46:34> 'requital_list'  Table initializing ..............   OK ! 
+C <21:46:34> 'requital_item'  Table initializing ..............   OK ! 
+C <21:46:34> GuardianGuildList Table initializing ..............   OK ! 
+C <21:46:35> [146]Regen Group Monster - No : 2, nX : 117, nY : 99
+C <21:46:35> [146]Regen Group Monster - No : 2, nX : 117, nY : 102
+C <21:46:35> [146]Regen Group Monster - No : 2, nX : 118, nY : 96
+C <21:46:35>   ** Accelator Users will be disconnected and logged in!
+C <21:46:35> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <21:46:35>  F1 : Server Status
+C <21:46:35>  F5 : Re-Load a part of 'GameServerData'
+C <21:46:35> ESC : Exit
+C <21:46:36> @@ Trying to connect PROXY Server ...
+C <21:46:37> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <21:46:37> SERVER_SIDE Socket Binded.
+C <21:46:37> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <21:46:37> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <21:46:37> Now Request DB DEMON Setting... Ok.
+C <22: 5:41> CUserManager::Delete : Don't Exist MoNsTeRX
+B <22: 5:41> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(4), ErrorType(5)
+B <22: 5:41> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(5), ErrorType(5)
+C <22: 6:17> CUserManager::Delete : Don't Exist MoNsTeRX
+B <22: 6:17> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(4), ErrorType(5)
+B <22: 6:17> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(5), ErrorType(5)
+A <22: 7: 3> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22: 7: 4> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22: 7: 4> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22: 7:29> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22: 7:29> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22: 7:29> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22: 8: 0> CUserManager::Delete : Don't Exist MoNsTeRX
+B <22: 8: 0> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(4), ErrorType(5)
+B <22: 8: 0> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(5), ErrorType(5)
+C <22:10:13> CUserManager::Delete : Don't Exist MoNsTeRX
+B <22:10:13> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(4), ErrorType(5)
+B <22:10:13> CanSaveUserData() Failed : Name(MoNsTeRX), CallType(5), ErrorType(5)
+A <22:11:33> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:11:33> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:11:33> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:13:56> ACHOU O HAMMER NO INVENTORIO
+A <22:13:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <22:43:50> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <22:43:50> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <22:43:50> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <22:43:50> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <22:43:50> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <22:43:50> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <22:43:50> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <22:43:50> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <22:43:50> SQL server connect OK!
+C <22:43:50> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <22:43:51> 	.NPC_NamebyGender		7932 data Loaded
+C <22:43:51> 	.NPC_Lv2Exp		 256 data Loaded
+C <22:43:51> 	.NPC Generation Info	 397 data Loaded
+C <22:43:51> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <22:43:51> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <22:43:51> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <22:43:51>   Reading './Data/BadWord.TXT'      count = 95 
+C <22:43:51>     .Plant Item		  33 data Loaded
+C <22:43:51>     .Mineral Item		  63 data Loaded
+C <22:43:51>     .Herb Item		  24 data Loaded
+C <22:43:51>     .Cook Item		 112 data Loaded
+C <22:43:51>     .Potion Item		  32 data Loaded
+C <22:43:51>     .Tool Item		  27 data Loaded
+C <22:43:51>     .Weapon Item		 966 data Loaded
+C <22:43:51>     .Disposable Item	  99 data Loaded
+C <22:43:51>     .Armor Item		 322 data Loaded
+C <22:43:51>     .Accessory Item	 122 data Loaded
+C <22:43:51>     .Etc Item		 309 data Loaded
+C <22:43:51> Item Table initializing    ...................... OK !
+
+C <22:43:51>  Store 'BLACKSMITH' itemlist number   : 321
+C <22:43:51>  Store 'FARM'       itemlist number   : 25
+C <22:43:51>  Store 'RESTAURANT' itemlist number   : 62
+C <22:43:51>  Store 'HERBSHOP'   itemlist number   : 24
+C <22:43:51>  Store 'SHAMBLES'   itemlist number   : 17
+C <22:43:51>  Store 'CANDLE'     itemlist number   : 12
+C <22:43:51>  Store 'SLOPSHOP'   itemlist number   : 166
+C <22:43:51>  Store 'ALCHEMY'    itemlist number   : 56
+C <22:43:51>  Store 'WOODWORKING'itemlist number   : 61
+C <22:43:51>  Store 'BOWCRAFT'   itemlist number   : 80
+C <22:43:51>  Store 'SHIPYARD'   itemlist number   : 11
+C <22:43:51>  Store 'PUB'        itemlist number   : 2
+C <22:43:51>  Store 'STORE'      itemlist number   : 20
+C <22:43:51>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <22:43:51> Store Item List  initializing    ................ OK !
+
+C <22:43:51> 	.'SkillMain'              99 data Loaded
+C <22:43:51> 'SkillMain' Table initializing   ................ OK !
+C <22:43:51> 'GMquest' Table initializing    ................. OK !
+C <22:43:51> 'Map_Info' Table loading        ................. OK !
+A <22:43:51> Read OK store table!
+C <22:43:51> 'Store' Table loading        ........... OK !
+A <22:43:51> Read OK mall table!
+C <22:43:51> 'ItemMall' Table loading        ........... OK !
+C <22:43:51> 'arean_game_info' Table loading        ........... OK !
+C <22:43:51> 'arean_Team_info' Table loading        ........... OK !
+C <22:43:51> 'arean_bonus_info' Table loading       ........... OK !
+C <22:43:51> 'alive_zone' Table loading        ..............  OK !
+C <22:43:51> 'Nation_Info' Table loading         ............  OK !
+C <22:43:51> 'Guild_List' Table loading         ............  OK
+C <22:43:51> 'Effect' Table initializing     ...............   OK !
+C <22:43:51> 'Magic' Table initializing	     ...............   OK !
+C <22:43:51> 	.SkillMapTable		  43 data Loaded
+C <22:43:51> 'SkillMapTable' initializing   ................   OK !
+C <22:43:51>    Script(0) Executed !
+C <22:43:51>  'ItemsBox_new' Loading  ......................   OK !
+C <22:43:51> <   BARANTAN.map>  loading                        OK !
+C <22:43:51> <   BARANTAN.toi2> loading                        OK !
+A <22:43:51> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <22:43:51> <   BARANTAN.skb>  loading                        OK !
+A <22:43:51> Event_Monster Table Fetch Error!!
+C <22:43:51> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <22:43:51> 'ItemJoin' Table initializing  ................   OK !
+C <22:43:51> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <22:43:51> Item Attr. initializing  
+C <22:43:51>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <22:43:51>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <22:43:51> 'Special_Item' Table initializing .............   OK !
+C <22:43:51> 'ability_limit' Table initializing .............   OK !
+C <22:43:51> 'ability_divide' Table initializing ............   OK !
+C <22:43:51> 'dual_info' Table initializing .................   OK !
+C <22:43:51> 'gamble_item' Table initializing ...............   OK !
+A <22:43:51> g_pNation was not Initiaized..!!
+C <22:43:51> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <22:43:51> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <22:43:51> Read OK Event_treasure_Level table!
+C <22:43:51> 'quest_in_map'	Table initializing ..............   OK ! 
+C <22:43:51> 'quest_info_map' Table initializing ..............   OK ! 
+C <22:43:51> 'requital_list'  Table initializing ..............   OK ! 
+C <22:43:51> 'requital_item'  Table initializing ..............   OK ! 
+C <22:43:51> GuardianGuildList Table initializing ..............   OK ! 
+C <22:43:52> [146]Regen Group Monster - No : 2, nX : 118, nY : 101
+C <22:43:52> [146]Regen Group Monster - No : 2, nX : 119, nY : 96
+C <22:43:52> [146]Regen Group Monster - No : 2, nX : 117, nY : 101
+C <22:43:52>   ** Accelator Users will be disconnected and logged in!
+C <22:43:52> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <22:43:52>  F1 : Server Status
+C <22:43:52>  F5 : Re-Load a part of 'GameServerData'
+C <22:43:52> ESC : Exit
+C <22:43:53> @@ Trying to connect PROXY Server ...
+C <22:43:53> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <22:43:53> SERVER_SIDE Socket Binded.
+C <22:43:53> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <22:43:53> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <22:43:53> Now Request DB DEMON Setting... Ok.
+A <22:44: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:44: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:44: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:46:28> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:46:28> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:55> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:55> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:58> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:58> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:47:58> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:11> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:11> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:23> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:23> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:28> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:28> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:32> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:32> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:37> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:37> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:44> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:44> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:48> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:48> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:52> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:52> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:48:58> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:48:58> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:49: 3> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:49: 3> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:49: 8> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:49: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:49:11> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:49:11> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:49:14> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:49:14> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <22:50:44> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <22:50:44> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <22:50:44> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <22:50:44> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <22:50:44> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <22:50:44> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <22:50:44> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <22:50:44> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <22:50:45> SQL server connect OK!
+C <22:50:45> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <22:50:45> 	.NPC_NamebyGender		7932 data Loaded
+C <22:50:45> 	.NPC_Lv2Exp		 256 data Loaded
+C <22:50:45> 	.NPC Generation Info	 397 data Loaded
+C <22:50:45> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <22:50:45> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <22:50:45> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <22:50:45>   Reading './Data/BadWord.TXT'      count = 95 
+C <22:50:45>     .Plant Item		  33 data Loaded
+C <22:50:45>     .Mineral Item		  63 data Loaded
+C <22:50:45>     .Herb Item		  24 data Loaded
+C <22:50:45>     .Cook Item		 112 data Loaded
+C <22:50:45>     .Potion Item		  32 data Loaded
+C <22:50:45>     .Tool Item		  27 data Loaded
+C <22:50:45>     .Weapon Item		 966 data Loaded
+C <22:50:45>     .Disposable Item	  99 data Loaded
+C <22:50:45>     .Armor Item		 322 data Loaded
+C <22:50:45>     .Accessory Item	 122 data Loaded
+C <22:50:45>     .Etc Item		 309 data Loaded
+C <22:50:45> Item Table initializing    ...................... OK !
+
+C <22:50:45>  Store 'BLACKSMITH' itemlist number   : 321
+C <22:50:45>  Store 'FARM'       itemlist number   : 25
+C <22:50:45>  Store 'RESTAURANT' itemlist number   : 62
+C <22:50:45>  Store 'HERBSHOP'   itemlist number   : 24
+C <22:50:45>  Store 'SHAMBLES'   itemlist number   : 17
+C <22:50:45>  Store 'CANDLE'     itemlist number   : 12
+C <22:50:45>  Store 'SLOPSHOP'   itemlist number   : 166
+C <22:50:45>  Store 'ALCHEMY'    itemlist number   : 56
+C <22:50:45>  Store 'WOODWORKING'itemlist number   : 61
+C <22:50:45>  Store 'BOWCRAFT'   itemlist number   : 80
+C <22:50:45>  Store 'SHIPYARD'   itemlist number   : 11
+C <22:50:45>  Store 'PUB'        itemlist number   : 2
+C <22:50:45>  Store 'STORE'      itemlist number   : 20
+C <22:50:45>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <22:50:45> Store Item List  initializing    ................ OK !
+
+C <22:50:45> 	.'SkillMain'              99 data Loaded
+C <22:50:45> 'SkillMain' Table initializing   ................ OK !
+C <22:50:45> 'GMquest' Table initializing    ................. OK !
+C <22:50:45> 'Map_Info' Table loading        ................. OK !
+A <22:50:45> Read OK store table!
+C <22:50:45> 'Store' Table loading        ........... OK !
+A <22:50:45> Read OK mall table!
+C <22:50:45> 'ItemMall' Table loading        ........... OK !
+C <22:50:45> 'arean_game_info' Table loading        ........... OK !
+C <22:50:45> 'arean_Team_info' Table loading        ........... OK !
+C <22:50:45> 'arean_bonus_info' Table loading       ........... OK !
+C <22:50:45> 'alive_zone' Table loading        ..............  OK !
+C <22:50:45> 'Nation_Info' Table loading         ............  OK !
+C <22:50:45> 'Guild_List' Table loading         ............  OK
+C <22:50:45> 'Effect' Table initializing     ...............   OK !
+C <22:50:45> 'Magic' Table initializing	     ...............   OK !
+C <22:50:45> 	.SkillMapTable		  43 data Loaded
+C <22:50:45> 'SkillMapTable' initializing   ................   OK !
+C <22:50:45>    Script(0) Executed !
+C <22:50:45>  'ItemsBox_new' Loading  ......................   OK !
+C <22:50:45> <   BARANTAN.map>  loading                        OK !
+C <22:50:45> <   BARANTAN.toi2> loading                        OK !
+A <22:50:45> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <22:50:45> <   BARANTAN.skb>  loading                        OK !
+A <22:50:45> Event_Monster Table Fetch Error!!
+C <22:50:45> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <22:50:46> 'ItemJoin' Table initializing  ................   OK !
+C <22:50:46> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <22:50:46> Item Attr. initializing  
+C <22:50:46>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <22:50:46>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <22:50:46> 'Special_Item' Table initializing .............   OK !
+C <22:50:46> 'ability_limit' Table initializing .............   OK !
+C <22:50:46> 'ability_divide' Table initializing ............   OK !
+C <22:50:46> 'dual_info' Table initializing .................   OK !
+C <22:50:46> 'gamble_item' Table initializing ...............   OK !
+A <22:50:46> g_pNation was not Initiaized..!!
+C <22:50:46> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <22:50:46> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <22:50:46> Read OK Event_treasure_Level table!
+C <22:50:46> 'quest_in_map'	Table initializing ..............   OK ! 
+C <22:50:46> 'quest_info_map' Table initializing ..............   OK ! 
+C <22:50:46> 'requital_list'  Table initializing ..............   OK ! 
+C <22:50:46> 'requital_item'  Table initializing ..............   OK ! 
+C <22:50:46> GuardianGuildList Table initializing ..............   OK ! 
+C <22:50:46> [146]Regen Group Monster - No : 2, nX : 122, nY : 100
+C <22:50:46> [146]Regen Group Monster - No : 2, nX : 120, nY : 102
+C <22:50:46> [146]Regen Group Monster - No : 2, nX : 121, nY : 96
+C <22:50:46>   ** Accelator Users will be disconnected and logged in!
+C <22:50:46> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <22:50:46>  F1 : Server Status
+C <22:50:46>  F5 : Re-Load a part of 'GameServerData'
+C <22:50:46> ESC : Exit
+C <22:50:47> @@ Trying to connect PROXY Server ...
+C <22:50:47> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <22:50:47> SERVER_SIDE Socket Binded.
+C <22:50:47> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <22:50:47> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <22:50:47> Now Request DB DEMON Setting... Ok.
+A <22:51: 7> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51: 7> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51: 7> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:23> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:26> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:28> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:29> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:31> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:33> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:34> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:35> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:36> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:38> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:39> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:40> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:41> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:52> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:52> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:53> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:53> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:53> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:53> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:54> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:51:54> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:52:10> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:52:10> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:52:59> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:52:59> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:56:30> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:56:30> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <22:56:42> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <22:56:42> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <22:56:42> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <22:56:42> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <22:56:42> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <22:56:42> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <22:56:42> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <22:56:42> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <22:56:42> SQL server connect OK!
+C <22:56:42> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <22:56:43> 	.NPC_NamebyGender		7932 data Loaded
+C <22:56:43> 	.NPC_Lv2Exp		 256 data Loaded
+C <22:56:43> 	.NPC Generation Info	 397 data Loaded
+C <22:56:43> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <22:56:43> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <22:56:43> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <22:56:43>   Reading './Data/BadWord.TXT'      count = 95 
+C <22:56:43>     .Plant Item		  33 data Loaded
+C <22:56:43>     .Mineral Item		  63 data Loaded
+C <22:56:43>     .Herb Item		  24 data Loaded
+C <22:56:43>     .Cook Item		 112 data Loaded
+C <22:56:43>     .Potion Item		  32 data Loaded
+C <22:56:43>     .Tool Item		  27 data Loaded
+C <22:56:43>     .Weapon Item		 966 data Loaded
+C <22:56:43>     .Disposable Item	  99 data Loaded
+C <22:56:43>     .Armor Item		 322 data Loaded
+C <22:56:43>     .Accessory Item	 122 data Loaded
+C <22:56:43>     .Etc Item		 309 data Loaded
+C <22:56:43> Item Table initializing    ...................... OK !
+
+C <22:56:43>  Store 'BLACKSMITH' itemlist number   : 321
+C <22:56:43>  Store 'FARM'       itemlist number   : 25
+C <22:56:43>  Store 'RESTAURANT' itemlist number   : 62
+C <22:56:43>  Store 'HERBSHOP'   itemlist number   : 24
+C <22:56:43>  Store 'SHAMBLES'   itemlist number   : 17
+C <22:56:43>  Store 'CANDLE'     itemlist number   : 12
+C <22:56:43>  Store 'SLOPSHOP'   itemlist number   : 166
+C <22:56:43>  Store 'ALCHEMY'    itemlist number   : 56
+C <22:56:43>  Store 'WOODWORKING'itemlist number   : 61
+C <22:56:43>  Store 'BOWCRAFT'   itemlist number   : 80
+C <22:56:43>  Store 'SHIPYARD'   itemlist number   : 11
+C <22:56:43>  Store 'PUB'        itemlist number   : 2
+C <22:56:43>  Store 'STORE'      itemlist number   : 20
+C <22:56:43>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <22:56:43> Store Item List  initializing    ................ OK !
+
+C <22:56:43> 	.'SkillMain'              99 data Loaded
+C <22:56:43> 'SkillMain' Table initializing   ................ OK !
+C <22:56:43> 'GMquest' Table initializing    ................. OK !
+C <22:56:43> 'Map_Info' Table loading        ................. OK !
+A <22:56:43> Read OK store table!
+C <22:56:43> 'Store' Table loading        ........... OK !
+A <22:56:43> Read OK mall table!
+C <22:56:43> 'ItemMall' Table loading        ........... OK !
+C <22:56:43> 'arean_game_info' Table loading        ........... OK !
+C <22:56:43> 'arean_Team_info' Table loading        ........... OK !
+C <22:56:43> 'arean_bonus_info' Table loading       ........... OK !
+C <22:56:43> 'alive_zone' Table loading        ..............  OK !
+C <22:56:43> 'Nation_Info' Table loading         ............  OK !
+C <22:56:43> 'Guild_List' Table loading         ............  OK
+C <22:56:43> 'Effect' Table initializing     ...............   OK !
+C <22:56:43> 'Magic' Table initializing	     ...............   OK !
+C <22:56:43> 	.SkillMapTable		  43 data Loaded
+C <22:56:43> 'SkillMapTable' initializing   ................   OK !
+C <22:56:43>    Script(0) Executed !
+C <22:56:43>  'ItemsBox_new' Loading  ......................   OK !
+C <22:56:43> <   BARANTAN.map>  loading                        OK !
+C <22:56:43> <   BARANTAN.toi2> loading                        OK !
+A <22:56:43> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <22:56:43> <   BARANTAN.skb>  loading                        OK !
+A <22:56:43> Event_Monster Table Fetch Error!!
+C <22:56:43> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <22:56:43> 'ItemJoin' Table initializing  ................   OK !
+C <22:56:43> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <22:56:43> Item Attr. initializing  
+C <22:56:43>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <22:56:43>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <22:56:43> 'Special_Item' Table initializing .............   OK !
+C <22:56:43> 'ability_limit' Table initializing .............   OK !
+C <22:56:43> 'ability_divide' Table initializing ............   OK !
+C <22:56:43> 'dual_info' Table initializing .................   OK !
+C <22:56:43> 'gamble_item' Table initializing ...............   OK !
+A <22:56:43> g_pNation was not Initiaized..!!
+C <22:56:43> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <22:56:43> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <22:56:43> Read OK Event_treasure_Level table!
+C <22:56:43> 'quest_in_map'	Table initializing ..............   OK ! 
+C <22:56:43> 'quest_info_map' Table initializing ..............   OK ! 
+C <22:56:43> 'requital_list'  Table initializing ..............   OK ! 
+C <22:56:43> 'requital_item'  Table initializing ..............   OK ! 
+C <22:56:43> GuardianGuildList Table initializing ..............   OK ! 
+C <22:56:43> [146]Regen Group Monster - No : 2, nX : 119, nY : 101
+C <22:56:43> [146]Regen Group Monster - No : 2, nX : 120, nY : 104
+C <22:56:43> [146]Regen Group Monster - No : 2, nX : 119, nY : 102
+C <22:56:43>   ** Accelator Users will be disconnected and logged in!
+C <22:56:43> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <22:56:43>  F1 : Server Status
+C <22:56:43>  F5 : Re-Load a part of 'GameServerData'
+C <22:56:43> ESC : Exit
+C <22:56:49> @@ Trying to connect PROXY Server ...
+C <22:56:49> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <22:56:49> SERVER_SIDE Socket Binded.
+C <22:56:49> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <22:56:49> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <22:56:49> Now Request DB DEMON Setting... Ok.
+A <22:57: 6> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57: 6> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57: 6> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:11> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:12> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:12> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:13> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:14> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:14> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:16> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:17> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:19> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:20> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:30> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:44> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:45> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:45> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:46> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:46> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:46> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:57:46> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:58: 8> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:58: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:58:22> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:58:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:58:32> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:58:32> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:58:40> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:58:40> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:58:59> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:58:59> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:59: 9> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:59: 9> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <22:59:20> ACHOU O ITEM MAGIC NO INVENTORIO
+A <22:59:20> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:24> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:26> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:27> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:31> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:32> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <22:59:34> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <23: 4:24> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <23: 4:24> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <23: 4:24> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <23: 4:24> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <23: 4:24> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <23: 4:24> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <23: 4:24> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <23: 4:24> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <23: 4:24> SQL server connect OK!
+C <23: 4:24> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <23: 4:25> 	.NPC_NamebyGender		7932 data Loaded
+C <23: 4:25> 	.NPC_Lv2Exp		 256 data Loaded
+C <23: 4:25> 	.NPC Generation Info	 397 data Loaded
+C <23: 4:25> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <23: 4:25> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <23: 4:25> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <23: 4:25>   Reading './Data/BadWord.TXT'      count = 95 
+C <23: 4:25>     .Plant Item		  33 data Loaded
+C <23: 4:25>     .Mineral Item		  63 data Loaded
+C <23: 4:25>     .Herb Item		  24 data Loaded
+C <23: 4:25>     .Cook Item		 112 data Loaded
+C <23: 4:25>     .Potion Item		  32 data Loaded
+C <23: 4:25>     .Tool Item		  27 data Loaded
+C <23: 4:25>     .Weapon Item		 966 data Loaded
+C <23: 4:25>     .Disposable Item	  99 data Loaded
+C <23: 4:25>     .Armor Item		 322 data Loaded
+C <23: 4:25>     .Accessory Item	 122 data Loaded
+C <23: 4:25>     .Etc Item		 309 data Loaded
+C <23: 4:25> Item Table initializing    ...................... OK !
+
+C <23: 4:25>  Store 'BLACKSMITH' itemlist number   : 321
+C <23: 4:25>  Store 'FARM'       itemlist number   : 25
+C <23: 4:25>  Store 'RESTAURANT' itemlist number   : 62
+C <23: 4:25>  Store 'HERBSHOP'   itemlist number   : 24
+C <23: 4:25>  Store 'SHAMBLES'   itemlist number   : 17
+C <23: 4:25>  Store 'CANDLE'     itemlist number   : 12
+C <23: 4:25>  Store 'SLOPSHOP'   itemlist number   : 166
+C <23: 4:25>  Store 'ALCHEMY'    itemlist number   : 56
+C <23: 4:25>  Store 'WOODWORKING'itemlist number   : 61
+C <23: 4:25>  Store 'BOWCRAFT'   itemlist number   : 80
+C <23: 4:25>  Store 'SHIPYARD'   itemlist number   : 11
+C <23: 4:25>  Store 'PUB'        itemlist number   : 2
+C <23: 4:25>  Store 'STORE'      itemlist number   : 20
+C <23: 4:25>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <23: 4:25> Store Item List  initializing    ................ OK !
+
+C <23: 4:25> 	.'SkillMain'              99 data Loaded
+C <23: 4:25> 'SkillMain' Table initializing   ................ OK !
+C <23: 4:25> 'GMquest' Table initializing    ................. OK !
+C <23: 4:25> 'Map_Info' Table loading        ................. OK !
+A <23: 4:25> Read OK store table!
+C <23: 4:25> 'Store' Table loading        ........... OK !
+A <23: 4:25> Read OK mall table!
+C <23: 4:25> 'ItemMall' Table loading        ........... OK !
+C <23: 4:25> 'arean_game_info' Table loading        ........... OK !
+C <23: 4:25> 'arean_Team_info' Table loading        ........... OK !
+C <23: 4:25> 'arean_bonus_info' Table loading       ........... OK !
+C <23: 4:25> 'alive_zone' Table loading        ..............  OK !
+C <23: 4:25> 'Nation_Info' Table loading         ............  OK !
+C <23: 4:25> 'Guild_List' Table loading         ............  OK
+C <23: 4:25> 'Effect' Table initializing     ...............   OK !
+C <23: 4:25> 'Magic' Table initializing	     ...............   OK !
+C <23: 4:25> 	.SkillMapTable		  43 data Loaded
+C <23: 4:25> 'SkillMapTable' initializing   ................   OK !
+C <23: 4:25>    Script(0) Executed !
+C <23: 4:25>  'ItemsBox_new' Loading  ......................   OK !
+C <23: 4:25> <   BARANTAN.map>  loading                        OK !
+C <23: 4:25> <   BARANTAN.toi2> loading                        OK !
+A <23: 4:25> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <23: 4:25> <   BARANTAN.skb>  loading                        OK !
+A <23: 4:25> Event_Monster Table Fetch Error!!
+C <23: 4:25> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <23: 4:25> 'ItemJoin' Table initializing  ................   OK !
+C <23: 4:25> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <23: 4:25> Item Attr. initializing  
+C <23: 4:25>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <23: 4:25>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <23: 4:25> 'Special_Item' Table initializing .............   OK !
+C <23: 4:25> 'ability_limit' Table initializing .............   OK !
+C <23: 4:25> 'ability_divide' Table initializing ............   OK !
+C <23: 4:25> 'dual_info' Table initializing .................   OK !
+C <23: 4:25> 'gamble_item' Table initializing ...............   OK !
+A <23: 4:25> g_pNation was not Initiaized..!!
+C <23: 4:25> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <23: 4:25> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <23: 4:25> Read OK Event_treasure_Level table!
+C <23: 4:25> 'quest_in_map'	Table initializing ..............   OK ! 
+C <23: 4:25> 'quest_info_map' Table initializing ..............   OK ! 
+C <23: 4:25> 'requital_list'  Table initializing ..............   OK ! 
+C <23: 4:25> 'requital_item'  Table initializing ..............   OK ! 
+C <23: 4:25> GuardianGuildList Table initializing ..............   OK ! 
+C <23: 4:25> [146]Regen Group Monster - No : 2, nX : 124, nY : 101
+C <23: 4:25> [146]Regen Group Monster - No : 2, nX : 120, nY : 97
+C <23: 4:25> [146]Regen Group Monster - No : 2, nX : 118, nY : 97
+C <23: 4:25>   ** Accelator Users will be disconnected and logged in!
+C <23: 4:25> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <23: 4:25>  F1 : Server Status
+C <23: 4:25>  F5 : Re-Load a part of 'GameServerData'
+C <23: 4:25> ESC : Exit
+C <23: 4:26> @@ Trying to connect PROXY Server ...
+C <23: 4:26> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <23: 4:26> SERVER_SIDE Socket Binded.
+C <23: 4:26> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <23: 4:26> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <23: 4:26> Now Request DB DEMON Setting... Ok.
+A <23: 4:54> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 4:54> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 4:54> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 5: 7> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 5: 7> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 5: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 5: 8> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 5: 9> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23: 6: 4> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23: 6: 4> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 6:27> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 6:27> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 6:27> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23: 7:18> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23: 7:18> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 7:47> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 7:47> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23: 7:47> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <23:10:36> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <23:10:36> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <23:10:36> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <23:10:36> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <23:10:36> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <23:10:36> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <23:10:36> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <23:10:36> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <23:10:36> SQL server connect OK!
+C <23:10:36> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <23:10:37> 	.NPC_NamebyGender		7932 data Loaded
+C <23:10:37> 	.NPC_Lv2Exp		 256 data Loaded
+C <23:10:37> 	.NPC Generation Info	 397 data Loaded
+C <23:10:37> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <23:10:37> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <23:10:37> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <23:10:37>   Reading './Data/BadWord.TXT'      count = 95 
+C <23:10:37>     .Plant Item		  33 data Loaded
+C <23:10:37>     .Mineral Item		  63 data Loaded
+C <23:10:37>     .Herb Item		  24 data Loaded
+C <23:10:37>     .Cook Item		 112 data Loaded
+C <23:10:37>     .Potion Item		  32 data Loaded
+C <23:10:37>     .Tool Item		  27 data Loaded
+C <23:10:37>     .Weapon Item		 966 data Loaded
+C <23:10:37>     .Disposable Item	  99 data Loaded
+C <23:10:37>     .Armor Item		 322 data Loaded
+C <23:10:37>     .Accessory Item	 122 data Loaded
+C <23:10:37>     .Etc Item		 309 data Loaded
+C <23:10:37> Item Table initializing    ...................... OK !
+
+C <23:10:37>  Store 'BLACKSMITH' itemlist number   : 321
+C <23:10:37>  Store 'FARM'       itemlist number   : 25
+C <23:10:37>  Store 'RESTAURANT' itemlist number   : 62
+C <23:10:37>  Store 'HERBSHOP'   itemlist number   : 24
+C <23:10:37>  Store 'SHAMBLES'   itemlist number   : 17
+C <23:10:37>  Store 'CANDLE'     itemlist number   : 12
+C <23:10:37>  Store 'SLOPSHOP'   itemlist number   : 166
+C <23:10:37>  Store 'ALCHEMY'    itemlist number   : 56
+C <23:10:37>  Store 'WOODWORKING'itemlist number   : 61
+C <23:10:37>  Store 'BOWCRAFT'   itemlist number   : 80
+C <23:10:37>  Store 'SHIPYARD'   itemlist number   : 11
+C <23:10:37>  Store 'PUB'        itemlist number   : 2
+C <23:10:37>  Store 'STORE'      itemlist number   : 20
+C <23:10:37>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <23:10:37> Store Item List  initializing    ................ OK !
+
+C <23:10:37> 	.'SkillMain'              99 data Loaded
+C <23:10:37> 'SkillMain' Table initializing   ................ OK !
+C <23:10:37> 'GMquest' Table initializing    ................. OK !
+C <23:10:37> 'Map_Info' Table loading        ................. OK !
+A <23:10:37> Read OK store table!
+C <23:10:37> 'Store' Table loading        ........... OK !
+A <23:10:37> Read OK mall table!
+C <23:10:37> 'ItemMall' Table loading        ........... OK !
+C <23:10:37> 'arean_game_info' Table loading        ........... OK !
+C <23:10:37> 'arean_Team_info' Table loading        ........... OK !
+C <23:10:37> 'arean_bonus_info' Table loading       ........... OK !
+C <23:10:37> 'alive_zone' Table loading        ..............  OK !
+C <23:10:37> 'Nation_Info' Table loading         ............  OK !
+C <23:10:37> 'Guild_List' Table loading         ............  OK
+C <23:10:37> 'Effect' Table initializing     ...............   OK !
+C <23:10:37> 'Magic' Table initializing	     ...............   OK !
+C <23:10:37> 	.SkillMapTable		  43 data Loaded
+C <23:10:37> 'SkillMapTable' initializing   ................   OK !
+C <23:10:37>    Script(0) Executed !
+C <23:10:37>  'ItemsBox_new' Loading  ......................   OK !
+C <23:10:37> <   BARANTAN.map>  loading                        OK !
+C <23:10:37> <   BARANTAN.toi2> loading                        OK !
+A <23:10:37> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <23:10:37> <   BARANTAN.skb>  loading                        OK !
+A <23:10:37> Event_Monster Table Fetch Error!!
+C <23:10:37> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <23:10:37> 'ItemJoin' Table initializing  ................   OK !
+C <23:10:37> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <23:10:37> Item Attr. initializing  
+C <23:10:37>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <23:10:37>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <23:10:37> 'Special_Item' Table initializing .............   OK !
+C <23:10:37> 'ability_limit' Table initializing .............   OK !
+C <23:10:37> 'ability_divide' Table initializing ............   OK !
+C <23:10:37> 'dual_info' Table initializing .................   OK !
+C <23:10:37> 'gamble_item' Table initializing ...............   OK !
+A <23:10:37> g_pNation was not Initiaized..!!
+C <23:10:37> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <23:10:37> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <23:10:37> Read OK Event_treasure_Level table!
+C <23:10:37> 'quest_in_map'	Table initializing ..............   OK ! 
+C <23:10:37> 'quest_info_map' Table initializing ..............   OK ! 
+C <23:10:37> 'requital_list'  Table initializing ..............   OK ! 
+C <23:10:37> 'requital_item'  Table initializing ..............   OK ! 
+C <23:10:37> GuardianGuildList Table initializing ..............   OK ! 
+C <23:10:37> [146]Regen Group Monster - No : 2, nX : 118, nY : 100
+C <23:10:37> [146]Regen Group Monster - No : 2, nX : 124, nY : 104
+C <23:10:37> [146]Regen Group Monster - No : 2, nX : 124, nY : 101
+C <23:10:37>   ** Accelator Users will be disconnected and logged in!
+C <23:10:37> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <23:10:37>  F1 : Server Status
+C <23:10:37>  F5 : Re-Load a part of 'GameServerData'
+C <23:10:37> ESC : Exit
+C <23:10:38> @@ Trying to connect PROXY Server ...
+C <23:10:38> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <23:10:38> SERVER_SIDE Socket Binded.
+C <23:10:38> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <23:10:38> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <23:10:38> Now Request DB DEMON Setting... Ok.
+A <23:10:45> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:10:45> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:10:45> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:17:10> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:17:10> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <23:37:13> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <23:37:13> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <23:37:13> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <23:37:13> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <23:37:13> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <23:37:13> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <23:37:13> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <23:37:13> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <23:37:13> SQL server connect OK!
+C <23:37:13> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <23:37:14> 	.NPC_NamebyGender		7932 data Loaded
+C <23:37:14> 	.NPC_Lv2Exp		 256 data Loaded
+C <23:37:14> 	.NPC Generation Info	 397 data Loaded
+C <23:37:14> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <23:37:14> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <23:37:14> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <23:37:14>   Reading './Data/BadWord.TXT'      count = 95 
+C <23:37:14>     .Plant Item		  33 data Loaded
+C <23:37:14>     .Mineral Item		  63 data Loaded
+C <23:37:14>     .Herb Item		  24 data Loaded
+C <23:37:14>     .Cook Item		 112 data Loaded
+C <23:37:14>     .Potion Item		  32 data Loaded
+C <23:37:14>     .Tool Item		  27 data Loaded
+C <23:37:14>     .Weapon Item		 966 data Loaded
+C <23:37:14>     .Disposable Item	  99 data Loaded
+C <23:37:14>     .Armor Item		 322 data Loaded
+C <23:37:14>     .Accessory Item	 122 data Loaded
+C <23:37:14>     .Etc Item		 309 data Loaded
+C <23:37:14> Item Table initializing    ...................... OK !
+
+C <23:37:14>  Store 'BLACKSMITH' itemlist number   : 321
+C <23:37:14>  Store 'FARM'       itemlist number   : 25
+C <23:37:14>  Store 'RESTAURANT' itemlist number   : 62
+C <23:37:14>  Store 'HERBSHOP'   itemlist number   : 24
+C <23:37:14>  Store 'SHAMBLES'   itemlist number   : 17
+C <23:37:14>  Store 'CANDLE'     itemlist number   : 12
+C <23:37:14>  Store 'SLOPSHOP'   itemlist number   : 166
+C <23:37:14>  Store 'ALCHEMY'    itemlist number   : 56
+C <23:37:14>  Store 'WOODWORKING'itemlist number   : 61
+C <23:37:14>  Store 'BOWCRAFT'   itemlist number   : 80
+C <23:37:14>  Store 'SHIPYARD'   itemlist number   : 11
+C <23:37:14>  Store 'PUB'        itemlist number   : 2
+C <23:37:14>  Store 'STORE'      itemlist number   : 20
+C <23:37:14>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <23:37:14> Store Item List  initializing    ................ OK !
+
+C <23:37:14> 	.'SkillMain'              99 data Loaded
+C <23:37:14> 'SkillMain' Table initializing   ................ OK !
+C <23:37:14> 'GMquest' Table initializing    ................. OK !
+C <23:37:14> 'Map_Info' Table loading        ................. OK !
+A <23:37:14> Read OK store table!
+C <23:37:14> 'Store' Table loading        ........... OK !
+A <23:37:14> Read OK mall table!
+C <23:37:14> 'ItemMall' Table loading        ........... OK !
+C <23:37:14> 'arean_game_info' Table loading        ........... OK !
+C <23:37:14> 'arean_Team_info' Table loading        ........... OK !
+C <23:37:14> 'arean_bonus_info' Table loading       ........... OK !
+C <23:37:14> 'alive_zone' Table loading        ..............  OK !
+C <23:37:14> 'Nation_Info' Table loading         ............  OK !
+C <23:37:14> 'Guild_List' Table loading         ............  OK
+C <23:37:14> 'Effect' Table initializing     ...............   OK !
+C <23:37:14> 'Magic' Table initializing	     ...............   OK !
+C <23:37:14> 	.SkillMapTable		  43 data Loaded
+C <23:37:14> 'SkillMapTable' initializing   ................   OK !
+C <23:37:14>    Script(0) Executed !
+C <23:37:14>  'ItemsBox_new' Loading  ......................   OK !
+C <23:37:14> <   BARANTAN.map>  loading                        OK !
+C <23:37:14> <   BARANTAN.toi2> loading                        OK !
+A <23:37:14> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <23:37:14> <   BARANTAN.skb>  loading                        OK !
+A <23:37:14> Event_Monster Table Fetch Error!!
+C <23:37:14> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <23:37:14> 'ItemJoin' Table initializing  ................   OK !
+C <23:37:14> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <23:37:14> Item Attr. initializing  
+C <23:37:14>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <23:37:14>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <23:37:14> 'Special_Item' Table initializing .............   OK !
+C <23:37:14> 'ability_limit' Table initializing .............   OK !
+C <23:37:14> 'ability_divide' Table initializing ............   OK !
+C <23:37:14> 'dual_info' Table initializing .................   OK !
+C <23:37:14> 'gamble_item' Table initializing ...............   OK !
+A <23:37:14> g_pNation was not Initiaized..!!
+C <23:37:14> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <23:37:14> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <23:37:14> Read OK Event_treasure_Level table!
+C <23:37:14> 'quest_in_map'	Table initializing ..............   OK ! 
+C <23:37:14> 'quest_info_map' Table initializing ..............   OK ! 
+C <23:37:14> 'requital_list'  Table initializing ..............   OK ! 
+C <23:37:14> 'requital_item'  Table initializing ..............   OK ! 
+C <23:37:14> GuardianGuildList Table initializing ..............   OK ! 
+C <23:37:14> [146]Regen Group Monster - No : 2, nX : 121, nY : 100
+C <23:37:14> [146]Regen Group Monster - No : 2, nX : 120, nY : 103
+C <23:37:14> [146]Regen Group Monster - No : 2, nX : 119, nY : 97
+C <23:37:14>   ** Accelator Users will be disconnected and logged in!
+C <23:37:14> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <23:37:14>  F1 : Server Status
+C <23:37:14>  F5 : Re-Load a part of 'GameServerData'
+C <23:37:14> ESC : Exit
+C <23:37:20> @@ Trying to connect PROXY Server ...
+C <23:37:20> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <23:37:20> SERVER_SIDE Socket Binded.
+C <23:37:20> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <23:37:20> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <23:37:20> Now Request DB DEMON Setting... Ok.
+A <23:37:37> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:37:37> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:37:37> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:37:57> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:37:57> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:38: 9> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:38: 9> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:38: 9> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <23:43:27> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <23:43:27> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <23:43:27> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <23:43:27> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <23:43:27> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <23:43:27> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <23:43:27> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <23:43:27> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <23:43:28> SQL server connect OK!
+C <23:43:28> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <23:43:28> 	.NPC_NamebyGender		7932 data Loaded
+C <23:43:28> 	.NPC_Lv2Exp		 256 data Loaded
+C <23:43:28> 	.NPC Generation Info	 397 data Loaded
+C <23:43:28> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <23:43:28> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <23:43:28> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <23:43:28>   Reading './Data/BadWord.TXT'      count = 95 
+C <23:43:28>     .Plant Item		  33 data Loaded
+C <23:43:28>     .Mineral Item		  63 data Loaded
+C <23:43:28>     .Herb Item		  24 data Loaded
+C <23:43:28>     .Cook Item		 112 data Loaded
+C <23:43:28>     .Potion Item		  32 data Loaded
+C <23:43:28>     .Tool Item		  27 data Loaded
+C <23:43:28>     .Weapon Item		 966 data Loaded
+C <23:43:28>     .Disposable Item	  99 data Loaded
+C <23:43:28>     .Armor Item		 322 data Loaded
+C <23:43:28>     .Accessory Item	 122 data Loaded
+C <23:43:28>     .Etc Item		 309 data Loaded
+C <23:43:28> Item Table initializing    ...................... OK !
+
+C <23:43:28>  Store 'BLACKSMITH' itemlist number   : 321
+C <23:43:28>  Store 'FARM'       itemlist number   : 25
+C <23:43:28>  Store 'RESTAURANT' itemlist number   : 62
+C <23:43:28>  Store 'HERBSHOP'   itemlist number   : 24
+C <23:43:28>  Store 'SHAMBLES'   itemlist number   : 17
+C <23:43:28>  Store 'CANDLE'     itemlist number   : 12
+C <23:43:28>  Store 'SLOPSHOP'   itemlist number   : 166
+C <23:43:28>  Store 'ALCHEMY'    itemlist number   : 56
+C <23:43:28>  Store 'WOODWORKING'itemlist number   : 61
+C <23:43:28>  Store 'BOWCRAFT'   itemlist number   : 80
+C <23:43:28>  Store 'SHIPYARD'   itemlist number   : 11
+C <23:43:28>  Store 'PUB'        itemlist number   : 2
+C <23:43:28>  Store 'STORE'      itemlist number   : 20
+C <23:43:28>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <23:43:28> Store Item List  initializing    ................ OK !
+
+C <23:43:28> 	.'SkillMain'              99 data Loaded
+C <23:43:28> 'SkillMain' Table initializing   ................ OK !
+C <23:43:28> 'GMquest' Table initializing    ................. OK !
+C <23:43:28> 'Map_Info' Table loading        ................. OK !
+A <23:43:28> Read OK store table!
+C <23:43:28> 'Store' Table loading        ........... OK !
+A <23:43:28> Read OK mall table!
+C <23:43:28> 'ItemMall' Table loading        ........... OK !
+C <23:43:28> 'arean_game_info' Table loading        ........... OK !
+C <23:43:28> 'arean_Team_info' Table loading        ........... OK !
+C <23:43:28> 'arean_bonus_info' Table loading       ........... OK !
+C <23:43:28> 'alive_zone' Table loading        ..............  OK !
+C <23:43:28> 'Nation_Info' Table loading         ............  OK !
+C <23:43:28> 'Guild_List' Table loading         ............  OK
+C <23:43:28> 'Effect' Table initializing     ...............   OK !
+C <23:43:28> 'Magic' Table initializing	     ...............   OK !
+C <23:43:28> 	.SkillMapTable		  43 data Loaded
+C <23:43:28> 'SkillMapTable' initializing   ................   OK !
+C <23:43:28>    Script(0) Executed !
+C <23:43:28>  'ItemsBox_new' Loading  ......................   OK !
+C <23:43:28> <   BARANTAN.map>  loading                        OK !
+C <23:43:28> <   BARANTAN.toi2> loading                        OK !
+A <23:43:28> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <23:43:28> <   BARANTAN.skb>  loading                        OK !
+A <23:43:28> Event_Monster Table Fetch Error!!
+C <23:43:28> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <23:43:29> 'ItemJoin' Table initializing  ................   OK !
+C <23:43:29> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <23:43:29> Item Attr. initializing  
+C <23:43:29>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <23:43:29>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <23:43:29> 'Special_Item' Table initializing .............   OK !
+C <23:43:29> 'ability_limit' Table initializing .............   OK !
+C <23:43:29> 'ability_divide' Table initializing ............   OK !
+C <23:43:29> 'dual_info' Table initializing .................   OK !
+C <23:43:29> 'gamble_item' Table initializing ...............   OK !
+A <23:43:29> g_pNation was not Initiaized..!!
+C <23:43:29> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <23:43:29> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <23:43:29> Read OK Event_treasure_Level table!
+C <23:43:29> 'quest_in_map'	Table initializing ..............   OK ! 
+C <23:43:29> 'quest_info_map' Table initializing ..............   OK ! 
+C <23:43:29> 'requital_list'  Table initializing ..............   OK ! 
+C <23:43:29> 'requital_item'  Table initializing ..............   OK ! 
+C <23:43:29> GuardianGuildList Table initializing ..............   OK ! 
+C <23:43:29> [146]Regen Group Monster - No : 2, nX : 116, nY : 100
+C <23:43:29> [146]Regen Group Monster - No : 2, nX : 117, nY : 101
+C <23:43:29> [146]Regen Group Monster - No : 2, nX : 120, nY : 99
+C <23:43:29>   ** Accelator Users will be disconnected and logged in!
+C <23:43:29> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <23:43:29>  F1 : Server Status
+C <23:43:29>  F5 : Re-Load a part of 'GameServerData'
+C <23:43:29> ESC : Exit
+C <23:43:30> @@ Trying to connect PROXY Server ...
+C <23:43:30> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <23:43:30> SERVER_SIDE Socket Binded.
+C <23:43:30> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <23:43:30> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <23:43:30> Now Request DB DEMON Setting... Ok.
+A <23:43:49> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:43:49> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:43:49> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:44:11> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:44:11> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:44:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:44:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:44:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+D <23:49:41> Very Short Terms, (tick)1, (able)0, (expect)100 are ADDED
+D <23:49:41> Short Terms, (tick)2, (able)0, (expect)300 are ADDED
+D <23:49:41> Normal Terms, (tick)3, (able)0, (expect)450 are ADDED
+D <23:49:41> Long Terms, (tick)4, (able)0, (expect)600 are ADDED
+D <23:49:41> Very Long Terms, (tick)7, (able)0, (expect)1000 are ADDED
+D <23:49:41> Quest30Second, (tick)10, (able)0, (expect)100 are ADDED
+C <23:49:42> max_exp_level(150), max_tac_level(199), max_job_level(100), max_dummy_level(150)
+
+A <23:49:42> MapServerConfigFileName is D:\DragonRaja-Server\GameServerData/data/MapServerConfig.ini
+C <23:49:42> SQL server connect OK!
+C <23:49:42> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+C <23:49:42> 	.NPC_NamebyGender		7932 data Loaded
+C <23:49:42> 	.NPC_Lv2Exp		 256 data Loaded
+C <23:49:42> 	.NPC Generation Info	 397 data Loaded
+C <23:49:42> 'NPC_NamebyGender' Table initializing  ..........  OK !
+C <23:49:42> 'NPC_Lv2Exp'       Table initializing  ..........  OK !
+C <23:49:42> 'NPC_Generation_SP'Table initializing  ..........  OK !
+
+C <23:49:42>   Reading './Data/BadWord.TXT'      count = 95 
+C <23:49:42>     .Plant Item		  33 data Loaded
+C <23:49:42>     .Mineral Item		  63 data Loaded
+C <23:49:42>     .Herb Item		  24 data Loaded
+C <23:49:42>     .Cook Item		 112 data Loaded
+C <23:49:42>     .Potion Item		  32 data Loaded
+C <23:49:42>     .Tool Item		  27 data Loaded
+C <23:49:42>     .Weapon Item		 966 data Loaded
+C <23:49:42>     .Disposable Item	  99 data Loaded
+C <23:49:42>     .Armor Item		 322 data Loaded
+C <23:49:42>     .Accessory Item	 122 data Loaded
+C <23:49:42>     .Etc Item		 309 data Loaded
+C <23:49:42> Item Table initializing    ...................... OK !
+
+C <23:49:42>  Store 'BLACKSMITH' itemlist number   : 321
+C <23:49:42>  Store 'FARM'       itemlist number   : 25
+C <23:49:42>  Store 'RESTAURANT' itemlist number   : 62
+C <23:49:42>  Store 'HERBSHOP'   itemlist number   : 24
+C <23:49:42>  Store 'SHAMBLES'   itemlist number   : 17
+C <23:49:42>  Store 'CANDLE'     itemlist number   : 12
+C <23:49:42>  Store 'SLOPSHOP'   itemlist number   : 166
+C <23:49:42>  Store 'ALCHEMY'    itemlist number   : 56
+C <23:49:42>  Store 'WOODWORKING'itemlist number   : 61
+C <23:49:42>  Store 'BOWCRAFT'   itemlist number   : 80
+C <23:49:42>  Store 'SHIPYARD'   itemlist number   : 11
+C <23:49:42>  Store 'PUB'        itemlist number   : 2
+C <23:49:42>  Store 'STORE'      itemlist number   : 20
+C <23:49:42>  Store 'MAGIC_GUILD'itemlist number   : 21
+C <23:49:42> Store Item List  initializing    ................ OK !
+
+C <23:49:42> 	.'SkillMain'              99 data Loaded
+C <23:49:42> 'SkillMain' Table initializing   ................ OK !
+C <23:49:42> 'GMquest' Table initializing    ................. OK !
+C <23:49:42> 'Map_Info' Table loading        ................. OK !
+A <23:49:42> Read OK store table!
+C <23:49:42> 'Store' Table loading        ........... OK !
+A <23:49:42> Read OK mall table!
+C <23:49:42> 'ItemMall' Table loading        ........... OK !
+C <23:49:42> 'arean_game_info' Table loading        ........... OK !
+C <23:49:42> 'arean_Team_info' Table loading        ........... OK !
+C <23:49:42> 'arean_bonus_info' Table loading       ........... OK !
+C <23:49:42> 'alive_zone' Table loading        ..............  OK !
+C <23:49:42> 'Nation_Info' Table loading         ............  OK !
+C <23:49:42> 'Guild_List' Table loading         ............  OK
+C <23:49:43> 'Effect' Table initializing     ...............   OK !
+C <23:49:43> 'Magic' Table initializing	     ...............   OK !
+C <23:49:43> 	.SkillMapTable		  43 data Loaded
+C <23:49:43> 'SkillMapTable' initializing   ................   OK !
+C <23:49:43>    Script(0) Executed !
+C <23:49:43>  'ItemsBox_new' Loading  ......................   OK !
+C <23:49:43> <   BARANTAN.map>  loading                        OK !
+C <23:49:43> <   BARANTAN.toi2> loading                        OK !
+A <23:49:43> Starting ResourceRate = 1.4, cause UsercountInServerSet = 1501
+C <23:49:43> <   BARANTAN.skb>  loading                        OK !
+A <23:49:43> Event_Monster Table Fetch Error!!
+C <23:49:43> ****** FAILED :: Event_Monster Table loading, Not Terminate......
+C <23:49:43> 'ItemJoin' Table initializing  ................   OK !
+C <23:49:43> WeatherTable(data/rain.tbl) initializing   ....   OK !
+C <23:49:43> Item Attr. initializing  
+C <23:49:43>      (Item_mutant/ Item_grade/ Item_mutant_kind ) OK !
+C <23:49:43>  skill_lvexp/ skill_exp/ mon_bag Table Loading    OK !
+C <23:49:43> 'Special_Item' Table initializing .............   OK !
+C <23:49:43> 'ability_limit' Table initializing .............   OK !
+C <23:49:43> 'ability_divide' Table initializing ............   OK !
+C <23:49:43> 'dual_info' Table initializing .................   OK !
+C <23:49:43> 'gamble_item' Table initializing ...............   OK !
+A <23:49:43> g_pNation was not Initiaized..!!
+C <23:49:43> D:\DragonRaja-Server\GameServerData/data/money_fame.txt loding............ ok
+C <23:49:43> Item Log config, DeleteDay = 30, SaveLevel = 5, ItemLevel = 100
+A <23:49:43> Read OK Event_treasure_Level table!
+C <23:49:43> 'quest_in_map'	Table initializing ..............   OK ! 
+C <23:49:43> 'quest_info_map' Table initializing ..............   OK ! 
+C <23:49:43> 'requital_list'  Table initializing ..............   OK ! 
+C <23:49:43> 'requital_item'  Table initializing ..............   OK ! 
+C <23:49:43> GuardianGuildList Table initializing ..............   OK ! 
+C <23:49:43> [146]Regen Group Monster - No : 2, nX : 123, nY : 100
+C <23:49:43> [146]Regen Group Monster - No : 2, nX : 124, nY : 103
+C <23:49:43> [146]Regen Group Monster - No : 2, nX : 122, nY : 99
+C <23:49:43>   ** Accelator Users will be disconnected and logged in!
+C <23:49:43> All of 'GameServerData' Loaded, successfuly ............^ ^
+
+
+C <23:49:43>  F1 : Server Status
+C <23:49:43>  F5 : Re-Load a part of 'GameServerData'
+C <23:49:43> ESC : Exit
+C <23:49:44> @@ Trying to connect PROXY Server ...
+C <23:49:44> [SUCCESS TO CONNECT] PROXY SERVER Server 127.0.0.1(3001)
+C <23:49:44> SERVER_SIDE Socket Binded.
+C <23:49:44> [SUCCESS TO CONNECT] AGENT SERVER Server 127.0.0.1(7001)
+C <23:49:44> [SUCCESS TO CONNECT] DB SERVER Server 127.0.0.1(4001)
+C <23:49:44> Now Request DB DEMON Setting... Ok.
+A <23:50:10> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:50:10> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:50:10> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:50:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:50:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:50:25> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:52:16> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:52:16> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:52:35> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:52:35> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:52:35> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:53:31> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:53:31> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:53:41> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:53:41> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:53:41> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:54:26> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:54:26> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:54:36> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:54:36> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:54:36> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:22> CServerTable::Send - pServerData->dwConnectionIndex = 0
+C <23:55:44> ACHOU O ITEM MAGIC NO INVENTORIO
+A <23:55:44> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:56> CServerTable::Send - pServerData->dwConnectionIndex = 0
+A <23:55:56> CServerTable::Send - pServerData->dwConnectionIndex = 0

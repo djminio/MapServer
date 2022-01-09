@@ -1,0 +1,1223 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers
+END
+AssistanceMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AssistanceMagic.cpp
+END
+Cinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Cinfo.cpp
+END
+Itemlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Itemlist.h
+END
+MonsterArena.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MonsterArena.h
+END
+Object.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Object.cpp
+END
+skill_lsw.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/skill_lsw.h
+END
+ItemMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ItemMgr.h
+END
+PhysicalAttack.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/PhysicalAttack.h
+END
+MenuServer2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/121/MapServerLMS/HigherLayers/MenuServer2.cpp
+END
+OP_Magic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/54/MapServerLMS/HigherLayers/OP_Magic.cpp
+END
+GMMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/GMMgr.h
+END
+Network6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Network6.cpp
+END
+ResistState.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ResistState.h
+END
+RareEffectMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RareEffectMgr.h
+END
+MenuDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MenuDefine.h
+END
+ImportantListMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ImportantListMgr.h
+END
+DualManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/DualManager.h
+END
+Rajasystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Rajasystem.h
+END
+teambattle.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/teambattle.h
+END
+MapInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MapInfo.cpp
+END
+OP_Inv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/53/MapServerLMS/HigherLayers/OP_Inv.cpp
+END
+NationSys.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/NationSys.h
+END
+SealStone.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SealStone.cpp
+END
+WeatherControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/rajasvn/DragonRaja/!svn/ver/136/MapServerLMS/HigherLayers/WeatherControl.cpp
+END
+LMSArena.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/62/MapServerLMS/HigherLayers/LMSArena.cpp
+END
+AssistanceMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AssistanceMagic.h
+END
+Cinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Cinfo.h
+END
+skill_lsw.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/skill_lsw.cpp
+END
+CounselorManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CounselorManager.cpp
+END
+Weather.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Weather.h
+END
+dungeon.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/90/MapServerLMS/HigherLayers/dungeon.h
+END
+MySql.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MySql.cpp
+END
+CItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CItem.h
+END
+Scrp_exe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/119/MapServerLMS/HigherLayers/Scrp_exe.cpp
+END
+KickOffAll.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/KickOffAll.h
+END
+FlameCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/FlameCombat.cpp
+END
+Object.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Object.h
+END
+ImportantListMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ImportantListMgr.cpp
+END
+CursingMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CursingMagic.h
+END
+Network3.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Network3.h
+END
+LogManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/108/MapServerLMS/HigherLayers/LogManager.h
+END
+AIManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/25/MapServerLMS/HigherLayers/AIManager.cpp
+END
+SkillMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SkillMgr.cpp
+END
+nationsupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/nationsupport.cpp
+END
+NationSys.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/NationSys.cpp
+END
+Path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/25/MapServerLMS/HigherLayers/Path.cpp
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Resource.h
+END
+WindCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/WindCombat.h
+END
+dungeon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/103/MapServerLMS/HigherLayers/dungeon.cpp
+END
+MenuServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/MenuServer.h
+END
+RegenManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RegenManager.h
+END
+DragonServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/DragonServer.cpp
+END
+RecoveryMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RecoveryMagic.h
+END
+ThunderCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ThunderCombat.h
+END
+LottoSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LottoSystem.cpp
+END
+LocalizingMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LocalizingMgr.h
+END
+LMSArena.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LMSArena.h
+END
+Hong_sub.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Hong_sub.h
+END
+AIDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AIDefine.h
+END
+UserManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/UserManager.cpp
+END
+ArenaDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ArenaDef.h
+END
+CursingMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CursingMagic.cpp
+END
+AttackMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AttackMagic.h
+END
+Op_Battle.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Op_Battle.h
+END
+CharList.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CharList.h
+END
+SealStoneGameServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SealStoneGameServer.cpp
+END
+Skill.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/121/MapServerLMS/HigherLayers/Skill.cpp
+END
+FlameCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/FlameCombat.h
+END
+BaseArena.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/59/MapServerLMS/HigherLayers/BaseArena.cpp
+END
+NetWork4.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/136/MapServerLMS/HigherLayers/NetWork4.h
+END
+Map.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Map.h
+END
+Jnpcenum.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Jnpcenum.h
+END
+network7.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/network7.h
+END
+WindCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/WindCombat.cpp
+END
+WarStartInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/WarStartInfo.h
+END
+mailmgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/mailmgr.cpp
+END
+nation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/nation.cpp
+END
+CharInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/106/MapServerLMS/HigherLayers/CharInfo.cpp
+END
+RegenManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RegenManager.cpp
+END
+MenuFuction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/33/MapServerLMS/HigherLayers/MenuFuction.cpp
+END
+eventmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/83/MapServerLMS/HigherLayers/eventmgr.h
+END
+exchangemgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/exchangemgr.h
+END
+CrackMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CrackMgr.h
+END
+RecoveryMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RecoveryMagic.cpp
+END
+ThunderCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ThunderCombat.cpp
+END
+Chatting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Chatting.cpp
+END
+Ability.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Ability.h
+END
+DefaultHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/106/MapServerLMS/HigherLayers/DefaultHeader.h
+END
+ItemMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ItemMgr.cpp
+END
+PhysicalAttack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/45/MapServerLMS/HigherLayers/PhysicalAttack.cpp
+END
+BattleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/83/MapServerLMS/HigherLayers/BattleManager.cpp
+END
+FreezeCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/FreezeCombat.cpp
+END
+WinZS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/WinZS.cpp
+END
+LottoSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LottoSystem.h
+END
+RareEffectMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/RareEffectMgr.cpp
+END
+Battle.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Battle.h
+END
+DualManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/DualManager.cpp
+END
+MagicState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MagicState.cpp
+END
+AdventManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AdventManager.h
+END
+Scrp_int.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Scrp_int.cpp
+END
+TalkWithGMMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/TalkWithGMMgr.cpp
+END
+Op_magic.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Op_magic.h
+END
+SealStoneGameServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SealStoneGameServer.h
+END
+WarStartInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/WarStartInfo.cpp
+END
+StepMigration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/StepMigration.cpp
+END
+eventmgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/129/MapServerLMS/HigherLayers/eventmgr.cpp
+END
+EarthCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/61/MapServerLMS/HigherLayers/EarthCombat.cpp
+END
+ExtraMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ExtraMagic.h
+END
+Menuserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/Menuserver.cpp
+END
+MapInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MapInfo.h
+END
+SealStone.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SealStone.h
+END
+quest_cpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/quest_cpp.h
+END
+Kein_item.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Kein_item.h
+END
+init_npc_table.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/init_npc_table.cpp
+END
+BattleManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/BattleManager.h
+END
+Battle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/45/MapServerLMS/HigherLayers/Battle.cpp
+END
+FreezeCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/FreezeCombat.h
+END
+LogManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/108/MapServerLMS/HigherLayers/LogManager.cpp
+END
+DarkCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/DarkCombat.h
+END
+QuestFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/QuestFunction.h
+END
+Area.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Area.h
+END
+EventTreasureBoxMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/EventTreasureBoxMgr.h
+END
+TalkWithGM.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/TalkWithGM.h
+END
+Npclist.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Npclist.h
+END
+ArenaManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/59/MapServerLMS/HigherLayers/ArenaManager.cpp
+END
+Npc_pattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Npc_pattern.h
+END
+FileMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/FileMgr.h
+END
+quest_cpp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/quest_cpp.cpp
+END
+Hong_sub.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Hong_sub.cpp
+END
+GuildManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/GuildManager.h
+END
+StoneArena.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/StoneArena.h
+END
+init_magic_tbl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/init_magic_tbl.cpp
+END
+DarkCombat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/DarkCombat.cpp
+END
+QuestFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/129/MapServerLMS/HigherLayers/QuestFunction.cpp
+END
+AttackMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/45/MapServerLMS/HigherLayers/AttackMagic.cpp
+END
+gamblerate.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/gamblerate.h
+END
+GMMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/GMMgr.cpp
+END
+Mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Mysql.h
+END
+EventTreasureBoxMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/EventTreasureBoxMgr.cpp
+END
+TalkWithGM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/TalkWithGM.cpp
+END
+ChrLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ChrLog.cpp
+END
+UserManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/UserManager.h
+END
+network7.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/network7.cpp
+END
+Op_chr_status.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Op_chr_status.h
+END
+Network5.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Network5.h
+END
+BaseArena.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/59/MapServerLMS/HigherLayers/BaseArena.h
+END
+exchangemgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/104/MapServerLMS/HigherLayers/exchangemgr.cpp
+END
+ItemList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ItemList.cpp
+END
+SymbolItemMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SymbolItemMgr.cpp
+END
+CharInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/119/MapServerLMS/HigherLayers/CharInfo.h
+END
+GuildManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/GuildManager.cpp
+END
+StoneArena.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/62/MapServerLMS/HigherLayers/StoneArena.cpp
+END
+CItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CItem.cpp
+END
+Auction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Auction.cpp
+END
+LTSSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LTSSupport.h
+END
+CoreArena.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CoreArena.h
+END
+KickOffAll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/KickOffAll.cpp
+END
+WeatherControl.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/118/MapServerLMS/HigherLayers/WeatherControl.h
+END
+NationSys_Define.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/NationSys_Define.h
+END
+Chatting.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Chatting.h
+END
+OP_Battle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/121/MapServerLMS/HigherLayers/OP_Battle.cpp
+END
+CounselorManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CounselorManager.h
+END
+AdventManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AdventManager.cpp
+END
+Scrp_exe.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/Scrp_exe.h
+END
+Winzs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Winzs.h
+END
+RajaSystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/31/MapServerLMS/HigherLayers/RajaSystem.cpp
+END
+ChrLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ChrLog.h
+END
+ExtraMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ExtraMagic.cpp
+END
+MagicState.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/MagicState.h
+END
+Scrp_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/62/MapServerLMS/HigherLayers/Scrp_int.h
+END
+TalkWithGMMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/TalkWithGMMgr.h
+END
+AIManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/AIManager.h
+END
+SkillMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SkillMgr.h
+END
+StepMigration.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/StepMigration.h
+END
+ProtectionMagic.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ProtectionMagic.h
+END
+MonsterArena.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/62/MapServerLMS/HigherLayers/MonsterArena.cpp
+END
+EarthCombat.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/EarthCombat.h
+END
+LTSSupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rajasvn/DragonRaja/!svn/ver/118/MapServerLMS/HigherLayers/LTSSupport.cpp
+END
+CoreArena.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/62/MapServerLMS/HigherLayers/CoreArena.cpp
+END
+SymbolItemMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/SymbolItemMgr.h
+END
+LocalizingMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/LocalizingMgr.cpp
+END
+Path.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Path.h
+END
+Kein_item.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Kein_item.cpp
+END
+ArenaDef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ArenaDef.cpp
+END
+Auction.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Auction.h
+END
+Area.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Area.cpp
+END
+ResistState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ResistState.cpp
+END
+Npclist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Npclist.cpp
+END
+OP_Chr_Status.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/119/MapServerLMS/HigherLayers/OP_Chr_Status.cpp
+END
+NPC_pattern.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/NPC_pattern.cpp
+END
+Map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Map.cpp
+END
+Network2.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/Network2.h
+END
+teambattle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/5/MapServerLMS/HigherLayers/teambattle.cpp
+END
+Dr_Network.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/129/MapServerLMS/HigherLayers/Dr_Network.h
+END
+dragonserver2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/138/MapServerLMS/HigherLayers/dragonserver2.cpp
+END
+Network6.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Network6.h
+END
+ArenaManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ArenaManager.h
+END
+ProtectionMagic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/ProtectionMagic.cpp
+END
+CrackMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/CrackMgr.cpp
+END
+Debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Debug.h
+END
+Ability.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/Ability.cpp
+END
+mailmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/mailmgr.h
+END
+nation.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/HigherLayers/nation.h
+END

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-lite|Win32">
+      <Configuration>Debug-lite</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-LMS|Win32">
+      <Configuration>Debug-LMS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-WarfieldServer|Win32">
+      <Configuration>Debug-WarfieldServer</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-custom|Win32">
+      <Configuration>Release-custom</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8605991B-8F07-4487-840E-C9690144A607}</ProjectGuid>
+    <RootNamespace>MapServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-WarfieldServer|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-LMS|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-lite|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-custom|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-WarfieldServer|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-LMS|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-lite|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-custom|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.31201.295</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>C:\Users\MrFor\Desktop\dr-int src 2009\directxlib;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-custom|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-lite|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-LMS|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-WarfieldServer|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <PrecompiledHeaderOutputFile>.\Debug/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug/MapServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/MapServer.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>Debug/MapServer103p_040407.map</MapFileName>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release/MapServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/MapServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-custom|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/MapServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/MapServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-lite|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeaderOutputFile>.\Debug/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MAPINFO:EXPORTS %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/MapServer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/MapServer.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>Debug/MapServer103p_040407.map</MapFileName>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-LMS|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;LMS_MAPSERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <PrecompiledHeaderOutputFile>.\Debug-LMS/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug-LMS/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug-LMS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug-LMS/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MAPINFO:EXPORTS %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>.\Debug-LMS/MapServerLMS.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;nafxcw.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug-LMS/MapServer.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>Debug-LMS/MapServer103p_040407.map</MapFileName>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug-LMS/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-WarfieldServer|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/MapServer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WARFIELD_SERVER_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <PrecompiledHeaderOutputFile>.\Debug-WS/MapServer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug-WS/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug-WS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug-WS/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug-WS/MapServer_WS.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug-WS/MapServer.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>Debug/MapServer103p_040407.map</MapFileName>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/MapServer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameDefine.cpp" />
+    <ClCompile Include="GameFactory.cpp" />
+    <ClCompile Include="GameSystem.cpp" />
+    <ClCompile Include="HigherLayers\Ability.cpp" />
+    <ClCompile Include="HigherLayers\AdventManager.cpp" />
+    <ClCompile Include="HigherLayers\AIManager.cpp" />
+    <ClCompile Include="HigherLayers\Area.cpp" />
+    <ClCompile Include="HigherLayers\ArenaDef.cpp" />
+    <ClCompile Include="HigherLayers\ArenaManager.cpp" />
+    <ClCompile Include="HigherLayers\AssistanceMagic.cpp" />
+    <ClCompile Include="HigherLayers\AttackMagic.cpp" />
+    <ClCompile Include="HigherLayers\Auction.cpp" />
+    <ClCompile Include="HigherLayers\BaseArena.cpp" />
+    <ClCompile Include="HigherLayers\Battle.cpp" />
+    <ClCompile Include="HigherLayers\BattleManager.cpp" />
+    <ClCompile Include="HigherLayers\CharInfo.cpp" />
+    <ClCompile Include="HigherLayers\Chatting.cpp" />
+    <ClCompile Include="HigherLayers\ChrLog.cpp" />
+    <ClCompile Include="HigherLayers\Cinfo.cpp" />
+    <ClCompile Include="HigherLayers\CItem.cpp" />
+    <ClCompile Include="HigherLayers\CoreArena.cpp" />
+    <ClCompile Include="HigherLayers\CounselorManager.cpp" />
+    <ClCompile Include="HigherLayers\CrackMgr.cpp" />
+    <ClCompile Include="HigherLayers\CursingMagic.cpp" />
+    <ClCompile Include="HigherLayers\DarkCombat.cpp" />
+    <ClCompile Include="HigherLayers\DragonServer.cpp" />
+    <ClCompile Include="HigherLayers\dragonserver2.cpp" />
+    <ClCompile Include="HigherLayers\DualManager.cpp" />
+    <ClCompile Include="HigherLayers\dungeon.cpp" />
+    <ClCompile Include="HigherLayers\EarthCombat.cpp" />
+    <ClCompile Include="HigherLayers\eventmgr.cpp" />
+    <ClCompile Include="HigherLayers\EventTreasureBoxMgr.cpp" />
+    <ClCompile Include="HigherLayers\exchangemgr.cpp" />
+    <ClCompile Include="HigherLayers\ExtraMagic.cpp" />
+    <ClCompile Include="HigherLayers\FlameCombat.cpp" />
+    <ClCompile Include="HigherLayers\FreezeCombat.cpp" />
+    <ClCompile Include="HigherLayers\GMMgr.cpp" />
+    <ClCompile Include="HigherLayers\GuildManager.cpp" />
+    <ClCompile Include="HigherLayers\Hong_sub.cpp" />
+    <ClCompile Include="HigherLayers\ImportantListMgr.cpp" />
+    <ClCompile Include="HigherLayers\init_magic_tbl.cpp" />
+    <ClCompile Include="HigherLayers\init_npc_table.cpp" />
+    <ClCompile Include="HigherLayers\ItemList.cpp" />
+    <ClCompile Include="HigherLayers\ItemMgr.cpp" />
+    <ClCompile Include="HigherLayers\Kein_item.cpp" />
+    <ClCompile Include="HigherLayers\KickOffAll.cpp" />
+    <ClCompile Include="HigherLayers\LMSArena.cpp" />
+    <ClCompile Include="HigherLayers\LocalizingMgr.cpp" />
+    <ClCompile Include="HigherLayers\LogManager.cpp" />
+    <ClCompile Include="HigherLayers\LottoSystem.cpp" />
+    <ClCompile Include="HigherLayers\LTSSupport.cpp" />
+    <ClCompile Include="HigherLayers\MagicState.cpp" />
+    <ClCompile Include="HigherLayers\mailmgr.cpp" />
+    <ClCompile Include="HigherLayers\Map.cpp" />
+    <ClCompile Include="HigherLayers\MapInfo.cpp" />
+    <ClCompile Include="HigherLayers\MenuFuction.cpp" />
+    <ClCompile Include="HigherLayers\Menuserver.cpp" />
+    <ClCompile Include="HigherLayers\MenuServer2.cpp" />
+    <ClCompile Include="HigherLayers\MonsterArena.cpp" />
+    <ClCompile Include="HigherLayers\MySql.cpp" />
+    <ClCompile Include="HigherLayers\nation.cpp" />
+    <ClCompile Include="HigherLayers\nationsupport.cpp" />
+    <ClCompile Include="HigherLayers\NationSys.cpp" />
+    <ClCompile Include="HigherLayers\Network6.cpp" />
+    <ClCompile Include="HigherLayers\network7.cpp" />
+    <ClCompile Include="HigherLayers\Npclist.cpp" />
+    <ClCompile Include="HigherLayers\NPC_pattern.cpp" />
+    <ClCompile Include="HigherLayers\Object.cpp" />
+    <ClCompile Include="HigherLayers\OP_Battle.cpp" />
+    <ClCompile Include="HigherLayers\OP_Chr_Status.cpp" />
+    <ClCompile Include="HigherLayers\OP_Inv.cpp" />
+    <ClCompile Include="HigherLayers\OP_Magic.cpp" />
+    <ClCompile Include="HigherLayers\Path.cpp" />
+    <ClCompile Include="HigherLayers\PhysicalAttack.cpp" />
+    <ClCompile Include="HigherLayers\ProtectionMagic.cpp" />
+    <ClCompile Include="HigherLayers\QuestFunction.cpp" />
+    <ClCompile Include="HigherLayers\quest_cpp.cpp" />
+    <ClCompile Include="HigherLayers\RajaSystem.cpp" />
+    <ClCompile Include="HigherLayers\RareEffectMgr.cpp" />
+    <ClCompile Include="HigherLayers\RecoveryMagic.cpp" />
+    <ClCompile Include="HigherLayers\RegenManager.cpp" />
+    <ClCompile Include="HigherLayers\ResistState.cpp" />
+    <ClCompile Include="HigherLayers\Scrp_exe.cpp" />
+    <ClCompile Include="HigherLayers\Scrp_int.cpp" />
+    <ClCompile Include="HigherLayers\SealStone.cpp" />
+    <ClCompile Include="HigherLayers\SealStoneGameServer.cpp" />
+    <ClCompile Include="HigherLayers\Skill.cpp" />
+    <ClCompile Include="HigherLayers\SkillMgr.cpp" />
+    <ClCompile Include="HigherLayers\skill_lsw.cpp" />
+    <ClCompile Include="HigherLayers\StepMigration.cpp" />
+    <ClCompile Include="HigherLayers\StoneArena.cpp" />
+    <ClCompile Include="HigherLayers\SymbolItemMgr.cpp" />
+    <ClCompile Include="HigherLayers\TalkWithGM.cpp" />
+    <ClCompile Include="HigherLayers\TalkWithGMMgr.cpp" />
+    <ClCompile Include="HigherLayers\teambattle.cpp" />
+    <ClCompile Include="HigherLayers\ThunderCombat.cpp" />
+    <ClCompile Include="HigherLayers\UserManager.cpp" />
+    <ClCompile Include="HigherLayers\WarStartInfo.cpp" />
+    <ClCompile Include="HigherLayers\WeatherControl.cpp" />
+    <ClCompile Include="HigherLayers\WindCombat.cpp" />
+    <ClCompile Include="HigherLayers\WinZS.cpp" />
+    <ClCompile Include="LowerLayers\DrServerManager.cpp" />
+    <ClCompile Include="LowerLayers\GameTimer.cpp" />
+    <ClCompile Include="LowerLayers\monitor.cpp" />
+    <ClCompile Include="LowerLayers\mylog.cpp" />
+    <ClCompile Include="LowerLayers\recvmsg.cpp" />
+    <ClCompile Include="LowerLayers\servertable.cpp" />
+    <ClCompile Include="LowerLayers\ServerTable2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapServer.cpp" />
+    <ClCompile Include="RMProc.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameDefine.h" />
+    <ClInclude Include="GameFactory.h" />
+    <ClInclude Include="GameSystem.h" />
+    <ClInclude Include="HigherLayers\Ability.h" />
+    <ClInclude Include="HigherLayers\AdventManager.h" />
+    <ClInclude Include="HigherLayers\AIDefine.h" />
+    <ClInclude Include="HigherLayers\AIManager.h" />
+    <ClInclude Include="HigherLayers\Area.h" />
+    <ClInclude Include="HigherLayers\ArenaDef.h" />
+    <ClInclude Include="HigherLayers\ArenaManager.h" />
+    <ClInclude Include="HigherLayers\AssistanceMagic.h" />
+    <ClInclude Include="HigherLayers\AttackMagic.h" />
+    <ClInclude Include="HigherLayers\Auction.h" />
+    <ClInclude Include="HigherLayers\BaseArena.h" />
+    <ClInclude Include="HigherLayers\Battle.h" />
+    <ClInclude Include="HigherLayers\BattleManager.h" />
+    <ClInclude Include="HigherLayers\CharInfo.h" />
+    <ClInclude Include="HigherLayers\CharList.h" />
+    <ClInclude Include="HigherLayers\Chatting.h" />
+    <ClInclude Include="HigherLayers\ChrLog.h" />
+    <ClInclude Include="HigherLayers\Cinfo.h" />
+    <ClInclude Include="HigherLayers\CItem.h" />
+    <ClInclude Include="HigherLayers\CoreArena.h" />
+    <ClInclude Include="HigherLayers\CounselorManager.h" />
+    <ClInclude Include="HigherLayers\CrackMgr.h" />
+    <ClInclude Include="HigherLayers\CursingMagic.h" />
+    <ClInclude Include="HigherLayers\DarkCombat.h" />
+    <ClInclude Include="HigherLayers\Debug.h" />
+    <ClInclude Include="HigherLayers\DefaultHeader.h" />
+    <ClInclude Include="HigherLayers\Dr_Network.h" />
+    <ClInclude Include="HigherLayers\DualManager.h" />
+    <ClInclude Include="HigherLayers\dungeon.h" />
+    <ClInclude Include="HigherLayers\EarthCombat.h" />
+    <ClInclude Include="HigherLayers\eventmgr.h" />
+    <ClInclude Include="HigherLayers\EventTreasureBoxMgr.h" />
+    <ClInclude Include="HigherLayers\exchangemgr.h" />
+    <ClInclude Include="HigherLayers\ExtraMagic.h" />
+    <ClInclude Include="HigherLayers\FileMgr.h" />
+    <ClInclude Include="HigherLayers\FlameCombat.h" />
+    <ClInclude Include="HigherLayers\FreezeCombat.h" />
+    <ClInclude Include="HigherLayers\gamblerate.h" />
+    <ClInclude Include="HigherLayers\GMMgr.h" />
+    <ClInclude Include="HigherLayers\GuildManager.h" />
+    <ClInclude Include="HigherLayers\Hong_sub.h" />
+    <ClInclude Include="HigherLayers\ImportantListMgr.h" />
+    <ClInclude Include="HigherLayers\Itemlist.h" />
+    <ClInclude Include="HigherLayers\ItemMgr.h" />
+    <ClInclude Include="HigherLayers\Jnpcenum.h" />
+    <ClInclude Include="HigherLayers\Kein_item.h" />
+    <ClInclude Include="HigherLayers\KickOffAll.h" />
+    <ClInclude Include="HigherLayers\LMSArena.h" />
+    <ClInclude Include="HigherLayers\LocalizingMgr.h" />
+    <ClInclude Include="HigherLayers\LogManager.h" />
+    <ClInclude Include="HigherLayers\LottoSystem.h" />
+    <ClInclude Include="HigherLayers\LTSSupport.h" />
+    <ClInclude Include="HigherLayers\MagicState.h" />
+    <ClInclude Include="HigherLayers\mailmgr.h" />
+    <ClInclude Include="HigherLayers\Map.h" />
+    <ClInclude Include="HigherLayers\MapInfo.h" />
+    <ClInclude Include="HigherLayers\MenuDefine.h" />
+    <ClInclude Include="HigherLayers\MenuServer.h" />
+    <ClInclude Include="HigherLayers\MonsterArena.h" />
+    <ClInclude Include="HigherLayers\Mysql.h" />
+    <ClInclude Include="HigherLayers\nation.h" />
+    <ClInclude Include="HigherLayers\NationSys.h" />
+    <ClInclude Include="HigherLayers\NationSys_Define.h" />
+    <ClInclude Include="HigherLayers\Network2.h" />
+    <ClInclude Include="HigherLayers\Network3.h" />
+    <ClInclude Include="HigherLayers\NetWork4.h" />
+    <ClInclude Include="HigherLayers\Network5.h" />
+    <ClInclude Include="HigherLayers\Network6.h" />
+    <ClInclude Include="HigherLayers\network7.h" />
+    <ClInclude Include="HigherLayers\Npclist.h" />
+    <ClInclude Include="HigherLayers\Npc_pattern.h" />
+    <ClInclude Include="HigherLayers\Object.h" />
+    <ClInclude Include="HigherLayers\Op_Battle.h" />
+    <ClInclude Include="HigherLayers\Op_chr_status.h" />
+    <ClInclude Include="HigherLayers\Op_magic.h" />
+    <ClInclude Include="HigherLayers\Path.h" />
+    <ClInclude Include="HigherLayers\PhysicalAttack.h" />
+    <ClInclude Include="HigherLayers\ProtectionMagic.h" />
+    <ClInclude Include="HigherLayers\QuestFunction.h" />
+    <ClInclude Include="HigherLayers\quest_cpp.h" />
+    <ClInclude Include="HigherLayers\Rajasystem.h" />
+    <ClInclude Include="HigherLayers\RareEffectMgr.h" />
+    <ClInclude Include="HigherLayers\RecoveryMagic.h" />
+    <ClInclude Include="HigherLayers\RegenManager.h" />
+    <ClInclude Include="HigherLayers\ResistState.h" />
+    <ClInclude Include="HigherLayers\Resource.h" />
+    <ClInclude Include="HigherLayers\Scrp_exe.h" />
+    <ClInclude Include="HigherLayers\Scrp_int.h" />
+    <ClInclude Include="HigherLayers\SealStone.h" />
+    <ClInclude Include="HigherLayers\SealStoneGameServer.h" />
+    <ClInclude Include="HigherLayers\SkillMgr.h" />
+    <ClInclude Include="HigherLayers\skill_lsw.h" />
+    <ClInclude Include="HigherLayers\StepMigration.h" />
+    <ClInclude Include="HigherLayers\StoneArena.h" />
+    <ClInclude Include="HigherLayers\SymbolItemMgr.h" />
+    <ClInclude Include="HigherLayers\TalkWithGM.h" />
+    <ClInclude Include="HigherLayers\TalkWithGMMgr.h" />
+    <ClInclude Include="HigherLayers\teambattle.h" />
+    <ClInclude Include="HigherLayers\ThunderCombat.h" />
+    <ClInclude Include="HigherLayers\UserManager.h" />
+    <ClInclude Include="HigherLayers\WarStartInfo.h" />
+    <ClInclude Include="HigherLayers\Weather.h" />
+    <ClInclude Include="HigherLayers\WeatherControl.h" />
+    <ClInclude Include="HigherLayers\WindCombat.h" />
+    <ClInclude Include="HigherLayers\Winzs.h" />
+    <ClInclude Include="LowerLayers\define.h" />
+    <ClInclude Include="LowerLayers\DrServerManager.h" />
+    <ClInclude Include="LowerLayers\GameTimer.h" />
+    <ClInclude Include="LowerLayers\inetwork.h" />
+    <ClInclude Include="LowerLayers\monitor.h" />
+    <ClInclude Include="LowerLayers\mylog.h" />
+    <ClInclude Include="LowerLayers\network_guid.h" />
+    <ClInclude Include="LowerLayers\net_define.h" />
+    <ClInclude Include="LowerLayers\packed.h" />
+    <ClInclude Include="LowerLayers\protocol.h" />
+    <ClInclude Include="LowerLayers\recvmsg.h" />
+    <ClInclude Include="LowerLayers\resource.h" />
+    <ClInclude Include="LowerLayers\ServerIdentity.h" />
+    <ClInclude Include="LowerLayers\servertable.h" />
+    <ClInclude Include="LowerLayers\ServerTable2.h" />
+    <ClInclude Include="LowerLayers\typedef.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mapserver.h" />
+    <ClInclude Include="RMDefine.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output
+END
+map_info.bin
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/map_info.bin
+END
+Mon_Name.bin
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Mon_Name.bin
+END
+Thunder.dat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Thunder.dat
+END
+AbilityLimit.bin
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/AbilityLimit.bin
+END
+Item_Legend.bin
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Item_Legend.bin
+END
+WhatNeededToMakeItem.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/WhatNeededToMakeItem.txt
+END
+Mon_Name.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Mon_Name.txt
+END
+Item_Legend_Bonus.bin
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Item_Legend_Bonus.bin
+END
+Lightning.dat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Lightning.dat
+END
+Thunder.ab
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Thunder.ab
+END
+levelexp.bin
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/levelexp.bin
+END
+Monster_WalkingTime_mSecPerTile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/Monster_WalkingTime_mSecPerTile.txt
+END
+gmquest.bin
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/gmquest.bin
+END
+skilltable.bin
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rajasvn/DragonRaja/!svn/ver/4/MapServerLMS/Output/skilltable.bin
+END
